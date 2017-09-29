@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>MeMemory game</title>
+
+  <link href="css/reset.css" rel="stylesheet" type="text/css">
+  <link href="css/style.css" rel="stylesheet" type="text/css">
+
+  </head>
+
+<body>
+
+  <header>
+      <h1>MEMEMORY GAME</h1>
+  </header>
+
+  <section id="page_1">
+    <img src="resources/dory.png" alt="Dory">
+
+    <div id = "info">
+        <form>
+          <p>Are you ready to play? Click on the tiles and find all the matching pictures!</p><br>
+          <p> TYPE YOUR NAME HERE: </p><br>
+          <input id = "playername" type="text" name="playername"><br>
+        </form>
+        <button id = "button" type="button">START GAME</button>
+    </div>
+  </section>
+
+
+  <section id="page_2">
+
+    <div id="game-settings">
+      <p id= "displayedname">PLAYER  |</p>
+      <p id="timer"></p>
+    </div>
+
+    <div id="board"></div>
+  </section>
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>
